@@ -27,5 +27,25 @@ public class Main {
 			}
 		}
 		return -1;}
+/*
+//2֊րդ տարբերակ
+ 
+	static int findNumber1(int[] arr,int n){
+    	for(int num: arr){
+    		int count=0;
+    		for(int num1: arr){
+    			if (num1%num==0){
+    				count += 1;
+    				if(count == n){
+    					return num;
+					}
+				}else{
+    				count = 0;
+				}
+			}
+		}
+	return  -1;}
+*/
+
 }
 
