@@ -1,6 +1,8 @@
 package com.company;
 /* իմպլանտացնել areSame(int a, int b) մեթոդը, որը տպում է "Same", եթե թվերը նույնն են և "not Same",
  եթե նույնը չեն։ Խնդիրը լուծել bitwise օպերատորներով   */
+
+/* ^֊ով փորձեցի, աշխատեց, բայց կարծում եմ էսպիսի լուծում չէիք ակնկալում իրականում)) այլ տարբերակ մտքիս չեկավ։Ճ */ 
 public class Main {
 
     public static void main(String[] args) {
