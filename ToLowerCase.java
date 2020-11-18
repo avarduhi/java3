@@ -12,7 +12,7 @@ public class Main {
     }
     static void toLowerCAse(String str){
         for(char c: str.toCharArray()){
-            if(c>='A' || c<='Z'){
+            if(c>='A' && c<='Z'){
                 c += 32;
             }
             System.out.print(c); //էստեղ չհասկացա, թե ինչի է միայն այն տառերը տպում, որոնք մեծատառից փոքրատառ է դարձնում։
